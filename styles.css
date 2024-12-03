@@ -1,0 +1,76 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light neutral background */
+    color: #333;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Logo */
+.logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Headers */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Features List */
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    font-size: 1.1em;
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
